@@ -1,6 +1,6 @@
 # Adafruit 16 Channel Servo Hat
 
-[![Download](https://api.bintray.com/packages/raczo/maven/adafruit-16-channel-servo-hat-driver/images/download.svg?version=0.0.2) ](https://bintray.com/raczo/maven/adafruit-16-channel-servo-hat-driver/0.0.2/link) [![Release](https://img.shields.io/badge/maven--central-v1.0.0-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/adafruit-16-channel-servo-hat-driver/0.0.2)
+[![Download](https://api.bintray.com/packages/raczo/maven/adafruit-16-channel-servo-hat-driver/images/download.svg?version=0.0.2) ](https://bintray.com/raczo/maven/adafruit-16-channel-servo-hat-driver/0.0.2/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.2-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/adafruit-16-channel-servo-hat-driver/0.0.2)
 
 Gradle library. 
 
