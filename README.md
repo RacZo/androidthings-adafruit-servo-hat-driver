@@ -4,7 +4,7 @@
 
 Gradle library. 
 
-Android Things Driver for the Adafruit 16 Channel Servo Hat.
+Android Things Driver for the Adafruit 16 Channel Servo Hat (https://www.adafruit.com/product/2327).
 
 
 ## Dependencies
