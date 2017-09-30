@@ -32,6 +32,7 @@ proguard/
 # Android Studio captures folder
 captures/
 
+<<<<<<< HEAD
 # intellij/android studio
 target
 .idea
@@ -44,10 +45,20 @@ build/
 api/build/
 android/build/
 .gradle
+=======
+# Intellij
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+>>>>>>> b662790f878690af3564091ba833f8abfcaf06a2
 
 # Keystore files
 *.jks
 
+<<<<<<< HEAD
 # Proguard outputs
 android/config/mapping.txt
 android/config/seeds.txt
@@ -55,3 +66,15 @@ android/config/unused.txt
 
 #Bintray gradle settings
 bintray.gradle
+=======
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+>>>>>>> b662790f878690af3564091ba833f8abfcaf06a2
