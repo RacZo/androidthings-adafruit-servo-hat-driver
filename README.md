@@ -1,6 +1,6 @@
 # Adafruit 16 Channel Servo Hat
 
-[![Download](https://api.bintray.com/packages/raczo/maven/androidthings-adafruit-servo-hat-driver/images/download.svg?version=0.0.5) ](https://bintray.com/raczo/maven/androidthings-adafruit-servo-hat-driver/0.0.5/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.5-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/androidthings-adafruit-servo-hat-driver/0.0.5)
+[![Download](https://api.bintray.com/packages/raczo/maven/androidthings-adafruit-servo-hat-driver/images/download.svg?version=0.0.6) ](https://bintray.com/raczo/maven/androidthings-adafruit-servo-hat-driver/0.0.6/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.6-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/androidthings-adafruit-servo-hat-driver/0.0.6)
 
 Gradle library. 
 
@@ -35,7 +35,7 @@ If not, add the following to your app's build.gradle:
 Via Gradle, by putting the following in your build.gradle:
 
 ```groovy
-    compile "com.oscarsalguero:androidthings-adafruit-servo-hat-driver:0.0.5"
+    compile "com.oscarsalguero:androidthings-adafruit-servo-hat-driver:0.0.6"
 ```
 
 Or Maven:
@@ -44,7 +44,7 @@ Or Maven:
 <dependency>
   <groupId>com.oscarsalguero</groupId>
   <artifactId>androidthings-adafruit-servo-hat-driver</artifactId>
-  <version>0.0.5</version>
+  <version>0.0.6****</version>
   <type>pom</type>
 </dependency>
 ```
