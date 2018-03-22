@@ -35,7 +35,7 @@ If not, add the following to your app's build.gradle:
 Via Gradle, by putting the following in your build.gradle:
 
 ```groovy
-    compile "com.oscarsalguero:servo-hat-library:0.0.7"
+    implementation "com.oscarsalguero:androidthings-adafruit-servo-hat-driver:0.0.7"
 ```
 
 Or Maven:
@@ -43,7 +43,7 @@ Or Maven:
 ```xml
 <dependency>
   <groupId>com.oscarsalguero</groupId>
-  <artifactId>servo-hat-library</artifactId>
+  <artifactId>androidthings-adafruit-servo-hat-driver</artifactId>
   <version>0.0.7</version>
   <type>pom</type>
 </dependency>
