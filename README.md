@@ -1,6 +1,6 @@
 # Adafruit 16 Channel Servo Hat
 
-[![Download](https://api.bintray.com/packages/raczo/maven/androidthings-adafruit-servo-hat-driver/images/download.svg?version=0.0.8) ](https://bintray.com/raczo/maven/androidthings-adafruit-servo-hat-driver/0.0.8/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.8-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/androidthings-adafruit-servo-hat-driver/0.0.8)
+[![Download](https://api.bintray.com/packages/raczo/maven/androidthings-adafruit-servo-hat-driver/images/download.svg?version=0.0.9) ](https://bintray.com/raczo/maven/androidthings-adafruit-servo-hat-driver/0.0.9/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.9-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/androidthings-adafruit-servo-hat-driver/0.0.9)
 
 Gradle library. 
 
@@ -16,7 +16,7 @@ AdafruitPwm has the following dependencies:
 - Jake Wharton's Timber 4.5.1 https://github.com/JakeWharton/timber
 
 ```groovy
-    compile "com.jakewharton.timber:timber:4.5.1"
+    compile "com.jakewharton.timber:timber:4.6.0"
 ```
 
 Both Antonio's AdafruitPwm driver class and this 16 Channel Servo Hat driver have the following dependencies:
@@ -35,7 +35,7 @@ If not, add the following to your app's build.gradle:
 Via Gradle, by putting the following in your build.gradle:
 
 ```groovy
-    implementation "com.oscarsalguero:androidthings-adafruit-servo-hat-driver:0.0.8"
+    implementation "com.oscarsalguero:androidthings-adafruit-servo-hat-driver:0.0.9"
 ```
 
 Or Maven:
@@ -44,7 +44,7 @@ Or Maven:
 <dependency>
   <groupId>com.oscarsalguero</groupId>
   <artifactId>androidthings-adafruit-servo-hat-driver</artifactId>
-  <version>0.0.8</version>
+  <version>0.0.9</version>
   <type>pom</type>
 </dependency>
 ```
