@@ -1,6 +1,6 @@
 # Adafruit 16 Channel Servo Hat
 
-[![Download](https://api.bintray.com/packages/raczo/maven/adafruit-16-channel-servo-hat-driver/images/download.svg?version=0.0.3) ](https://bintray.com/raczo/maven/adafruit-16-channel-servo-hat-driver/0.0.3/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.3-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/adafruit-16-channel-servo-hat-driver/0.0.3)
+[![Download](https://api.bintray.com/packages/raczo/maven/androidthings-adafruit-servo-hat-driver/images/download.svg?version=0.0.4) ](https://bintray.com/raczo/maven/androidthings-adafruit-servo-hat-driver/0.0.4/link) [![Release](https://img.shields.io/badge/maven--central-v0.0.4-green.svg?style=flat-square)](http://mvnrepository.com/artifact/com.oscarsalguero/androidthings-adafruit-servo-hat-driver/0.0.4)
 
 Gradle library. 
 
@@ -21,12 +21,12 @@ AdafruitPwm has the following dependencies:
 
 Both Antonio's AdafruitPwm driver class and this 16 Channel Servo Hat driver have the following dependencies:
 
-- Android Things Developer Preview 0.4.1 https://developer.android.com/things/sdk/index.html
+- Android Things Developer Preview 0.7 https://developer.android.com/things/sdk/index.html
 
 If not, add the following to your app's build.gradle:
 
 ```groovy
-    compile "com.google.android.things:androidthings:0.4.1-devpreview"
+    implementation "com.google.android.things:androidthings:0.7-devpreview"
 ```
 
 
@@ -35,7 +35,7 @@ If not, add the following to your app's build.gradle:
 Via Gradle, by putting the following in your build.gradle:
 
 ```groovy
-    compile "com.oscarsalguero:adafruit-16-channel-servo-hat-driver:0.0.3"
+    compile "com.oscarsalguero:androidthings-adafruit-servo-hat-driver:0.0.4"
 ```
 
 Or Maven:
@@ -43,8 +43,8 @@ Or Maven:
 ```xml
 <dependency>
   <groupId>com.oscarsalguero</groupId>
-  <artifactId>adafruit-16-channel-servo-hat-driver</artifactId>
-  <version>0.0.3</version>
+  <artifactId>androidthings-adafruit-servo-hat-driver</artifactId>
+  <version>0.0.4</version>
   <type>pom</type>
 </dependency>
 ```
@@ -124,7 +124,7 @@ Antonio Zugaldia's Adafruit DC Motor Hat driver in the Android Robocar project.
 License
 =======
 
-    Copyright 2017 Oscar Salguero
+    Copyright 2018 Oscar Salguero
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
